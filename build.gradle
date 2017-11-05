@@ -28,7 +28,7 @@ apply plugin: 'maven-publish'
 tasks.test.dependsOn tasks.publishToMavenLocal
 
 dependencies {
-    baseline group: 'com.palantir.baseline', name: 'gradle-baseline-java-config', ext: 'zip'
+    baseline 'com.palantir.baseline:gradle-baseline-java-config:0.17.1@zip'
 }
 
 allprojects {
